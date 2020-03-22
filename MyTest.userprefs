@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="MyTest/MyTest.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyTest/ResultsWindow.cs">
+    <Files>
+      <File FileName="MyTest/TestWindow.cs" Line="62" Column="3" />
+      <File FileName="MyTest/ResultsWindow.cs" Line="77" Column="25" />
+      <File FileName="MyTest/TestEngine/TestResults.cs" Line="1" Column="1" />
+      <File FileName="MyTestCreator/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

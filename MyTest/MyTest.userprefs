@@ -1,0 +1,24 @@
+﻿<Properties StartupItem="MyTest.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SelectTestFileDlg.cs">
+    <Files>
+      <File FileName="TestWindow.cs" Line="54" Column="23" />
+      <File FileName="ResultsWindow.cs" Line="80" Column="20" />
+      <File FileName="TestEngine/TestState.cs" Line="124" Column="36" />
+      <File FileName="Program.cs" Line="14" Column="12" />
+      <File FileName="SelectTestFileDlg.cs" Line="24" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/voivode/Projects/MyTest/MyTest/MyTestCreator/SelectTestToEncryptDlg.cs" line="41" column="1" />
+      <Breakpoint file="/home/voivode/Projects/MyTest/MyTest/MyTestCreator/SelectTestToEncryptDlg.cs" line="40" column="1" />
+      <Breakpoint file="/home/voivode/Projects/MyTest/MyTest/MyTestCreator/SelectTestToEncryptDlg.cs" line="38" column="10" />
+      <Breakpoint file="/home/voivode/Projects/MyTest/MyTest/MyTestCreator/SelectTestToEncryptDlg.cs" line="43" column="1" />
+      <Breakpoint file="/home/voivode/Projects/MyTest/MyTest/MyTestCreator/TestProtector/TestFileEncDec.cs" line="107" column="1" />
+      <Breakpoint file="/home/voivode/Projects/MyTest/MyTest/MyTestCreator/TestProtector/TestFileEncDec.cs" line="126" column="19" />
+      <Breakpoint file="/home/voivode/Projects/MyTest/MyTest/MyTestCreator/TestProtector/TestFileEncDec.cs" line="120" column="46" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,48 @@
+﻿# This is a commentary line
+# Parser will ignore this
+# Every meaningful line has syntax: Key = Value
+# Spaces between the fields can be unlimited. 
+# ------------------------
+# Rules to abide:
+# 1. Keywords Test, Author, Date, Time, Mode, Question can be used in any order and in any place of the text
+# 2. Keywords Value, Answer, Answer+ are ignored if placed before keyword Question
+# 3. Keywords Value, Answer, Answer+ are considered to be related to the latest occurence of the Question keyword
+#
+# Test name
+Test = Example test
+# Test author
+Author = Andrey N. Glushenkov
+# Creation/Modification date. Must be in format DD.MM.YYYY
+Date = 03.10.2017
+# Test time in seconds. Note that this is a time for the whole test.
+# Below is the time of 15 minutes
+Time = 900
+# Wrong answers can be considered as punishment 
+# worth question value divided on all wrong answers
+# This can be set by using Mode = Punish
+Mode = Punish
+# If you don't want such behaviour, then use Mode = Loyal
+Mode = Loyal
+# Each question begins with keyword Question
+# Every keyword Answer is counted towards the latest encountered Question keyword.
+Question = Here goes the question text
+# Value tells how much points given question is worth
+# In example below the question is worth 10 points
+# Value must be positive, otherwise it's treated as zero
+Value = 10
+Answer = Some answer
+Answer = Another answer
+Answer = And here's one more
+# Correct answers are marked by + suffix
+Answer+ = This answer is correct one
+# There can be more than one correct answer
+Answer+ = This is a correct answer too
+Question = This is the second question
+# The order in which you mark an answer as a correct one doesn't matter.
+# All answers are shuffled and each time are given in a random order.
+# Same applies to the questions.
+Answer = Answer text 1
+Answer+ = Answer text 2
+Answer = Answer text 3
+Answer+ = Answer text 4
+# It's better to leave an empty line at the end of the file
